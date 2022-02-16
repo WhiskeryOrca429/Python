@@ -1,7 +1,5 @@
 import time
 
-alph = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
-
 def Calc():
     print("[Calculator]")
     num1 = input("[First Number?]:")
@@ -27,10 +25,6 @@ def Calc():
     if oper == ("*"):
         asn4 = num1 + num2
         print("[Answer]:",asn4)
-
-    if oper == alph:
-        print("That is an incorrect Operator")
-        Calc()
 
     time.sleep(3)
     Calc()
